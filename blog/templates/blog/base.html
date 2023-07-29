@@ -12,7 +12,7 @@
     <div class="page-header">
         {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span> ➕ </span></a>
-       
+       {% endif %}
         <h1><a href="/">Blogzin</a></h1>
     </div>
     <div class="content container">
